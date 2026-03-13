@@ -7,17 +7,17 @@ class Neumann < Formula
   on_macos do
     on_arm do
       url "https://github.com/Shadylukin/Neumann/releases/download/v0.4.0/neumann-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a1aaa559d0aa50a3889014fe22a99492eb7979575d3d35e0abf054653d7f9c83"
+      sha256 "abea188751375cad0dc124bcf3c9ebab5619d86c9de12d23c92fa429177cdccc"
     end
     on_intel do
       url "https://github.com/Shadylukin/Neumann/releases/download/v0.4.0/neumann-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5767894df1dfa61cf9c310eab2320573f5653b34c52e8cfe4b28bbb2a722da4f"
+      sha256 "63da8ff9ff31f4d166c90e4e9c6e313e74b88e4c1f993a1828c9d65cc53db243"
     end
   end
 
   on_linux do
     url "https://github.com/Shadylukin/Neumann/releases/download/v0.4.0/neumann-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "3b876e4c184fd642b7f1fa6da535b46ba8d2ebc6d0a35463de182becc8c37027"
+    sha256 "ab3e0010d31b2b7275f94eaa640b7cd7ae04bbc01eceb7932aed95990ceb14d0"
   end
 
   def install
